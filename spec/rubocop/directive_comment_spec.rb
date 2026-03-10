@@ -418,13 +418,13 @@ RSpec.describe RuboCop::DirectiveComment do
       allow(cop_registry).to receive(:department?).with('Foo').and_return(true)
     end
 
-    context "when cop is overridden by it's department" do
+    context "when cop is overridden by its department" do
       let(:text) { '# rubocop:enable Foo, Foo/Bar' }
 
       it { is_expected.to be(true) }
     end
 
-    context "when cop is not overridden by it's department" do
+    context "when cop is not overridden by its department" do
       let(:text) { '# rubocop:enable Bar, Foo/Bar' }
 
       it { is_expected.to be(false) }

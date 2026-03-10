@@ -37,7 +37,7 @@ $ rubocop -V
   in a future version unintentionally.
 * Add a changelog entry by creating a file `changelog/{type}_{some_description}.md`. See [changelog entry format](#changelog-entry-format) for details.
 * Please try not to mess with the Rakefile, version, or history. If
-  you want to have your own version, or is otherwise necessary, that
+  you want to have your own version, or it is otherwise necessary, that
   is fine, but please isolate to its own commit so I can cherry-pick
   around it.
 * Make sure the test suite is passing and the code you wrote doesn't produce
@@ -91,7 +91,7 @@ Here are a few examples:
 * Mark it up in [Markdown syntax][6].
 * The entry should be a single line, starting with `* ` (an asterisk and a space).
 * If the change has a related GitHub issue (e.g. a bug fix for a reported issue), put a link to the issue as `[#123](https://github.com/rubocop/rubocop/issues/123): `.
-* Describe the brief of the change. The sentence should end with a punctuation.
+* Describe the change briefly. The sentence should end with punctuation.
 * If this is a breaking change, mark it with `**(Breaking)**`.
 * At the end of the entry, add an implicit link to your GitHub user page as `([@username][])`.
 

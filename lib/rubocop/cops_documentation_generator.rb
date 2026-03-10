@@ -395,7 +395,7 @@ class CopsDocumentationGenerator # rubocop:disable Metrics/ClassLength
     status == 'pending' ? 'Pending' : 'Enabled'
   end
 
-  # HTML anchor are somewhat limited in what characters they can contain, just
+  # HTML anchors are somewhat limited in what characters they can contain, just
   # accept a known-good subset. As long as it's consistent it doesn't matter.
   #
   # Style/AccessModifierDeclarations => styleaccessmodifierdeclarations

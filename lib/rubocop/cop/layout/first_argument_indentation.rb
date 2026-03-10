@@ -267,7 +267,7 @@ module RuboCop
         end
 
         # Returns the column of the given range. For single line ranges, this
-        # is simple. For ranges with line breaks, we look a the last code line.
+        # is simple. For ranges with line breaks, we look at the last code line.
         def column_of(range)
           source = range.source.strip
           if source.include?("\n")

@@ -1691,7 +1691,7 @@ See current entries: https://github.com/rubocop/rubocop/blob/master/CHANGELOG.md
 * [#5289](https://github.com/rubocop/rubocop/issues/5289): Fix `Layout/SpaceInsideReferenceBrackets` and `Layout/SpaceInsideArrayLiteralBrackets` configuration conflicts. ([@garettarrowood][])
 * [#4444](https://github.com/rubocop/rubocop/issues/4444): Fix `Style/AutoResourceCleanup` shouldn't flag `File.open(...).close`. ([@dpostorivo][])
 * [#5278](https://github.com/rubocop/rubocop/pull/5278): Fix deprecation check to use `loaded_path` in warning. ([@chrishulton][])
-* [#5293](https://github.com/rubocop/rubocop/issues/5293): Fix a regression for `Rails/HasManyOrHasOneDependent` when using a option of `has_many` or `has_one` association. ([@koic][])
+* [#5293](https://github.com/rubocop/rubocop/issues/5293): Fix a regression for `Rails/HasManyOrHasOneDependent` when using an option of `has_many` or `has_one` association. ([@koic][])
 * [#5223](https://github.com/rubocop/rubocop/issues/5223): False offences in :unannotated Style/FormatStringToken. ([@nattfodd][])
 * [#5258](https://github.com/rubocop/rubocop/issues/5258): Fix incorrect auto-correction for `Rails/Presence` when the else block is multiline. ([@wata727][])
 * [#5297](https://github.com/rubocop/rubocop/pull/5297): Improve inspection for `Rails/InverseOf` when including `through` or `polymorphic` options. ([@wata727][])

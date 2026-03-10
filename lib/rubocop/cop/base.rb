@@ -60,9 +60,9 @@ module RuboCop
         []
       end
 
-      # Returns a url to view this cops documentation online.
+      # Returns a url to view this cop's documentation online.
       # Requires 'DocumentationBaseURL' to be set for your department.
-      # Will follow the convention of RuboCops own documentation structure,
+      # Will follow the convention of RuboCop's own documentation structure,
       # overwrite this method to accommodate your custom layout.
       # @return [String, nil]
       #

@@ -749,7 +749,7 @@ RSpec.describe RuboCop::Config do
         end
       end
 
-      context 'if there are is an Includes key' do
+      context 'if there is an Includes key' do
         let(:hash) { { 'AllCops' => { 'Includes' => [] } } }
 
         it 'yields' do
@@ -757,7 +757,7 @@ RSpec.describe RuboCop::Config do
         end
       end
 
-      context 'if there are is an Excludes key' do
+      context 'if there is an Excludes key' do
         let(:hash) { { 'AllCops' => { 'Excludes' => [] } } }
 
         it 'yields' do
